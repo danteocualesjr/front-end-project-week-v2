@@ -5,7 +5,7 @@ class EditNote extends Component {
     render() {
         return (
             <div>
-                
+                Placeholder for EditNote...
             </div>
         );
     }

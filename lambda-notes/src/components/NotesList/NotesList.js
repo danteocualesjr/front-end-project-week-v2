@@ -5,7 +5,7 @@ class NotesList extends Component {
     render() {
         return (
             <div>
-                
+                Placeholder for NoteList...
             </div>
         );
     }

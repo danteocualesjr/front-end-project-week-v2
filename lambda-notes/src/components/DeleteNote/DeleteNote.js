@@ -5,7 +5,7 @@ class DeleteNote extends Component {
     render() {
         return (
             <div>
-                
+                Placeholder for DeleteNote...
             </div>
         );
     }

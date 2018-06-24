@@ -5,7 +5,7 @@ class MainContent extends Component {
     render() {
         return (
             <div>
-                
+                Placeholder for MainContent...
             </div>
         );
     }

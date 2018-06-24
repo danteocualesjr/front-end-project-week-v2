@@ -5,7 +5,7 @@ class NoteView extends Component {
     render() {
         return (
             <div>
-                
+                Placeholder for NoteView...
             </div>
         );
     }

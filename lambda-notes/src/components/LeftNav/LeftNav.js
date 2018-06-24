@@ -5,7 +5,7 @@ class LeftNav extends Component {
     render() {
         return (
             <div>
-                LeftNav placeholder...
+                Placeholder for LeftNav...
             </div>
         )
     }
