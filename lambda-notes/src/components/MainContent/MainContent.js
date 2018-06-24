@@ -4,7 +4,7 @@ import './index.css';
 class MainContent extends Component {
     render() {
         return (
-            <div>
+            <div className="main-content-container">
                 Placeholder for MainContent...
             </div>
         );

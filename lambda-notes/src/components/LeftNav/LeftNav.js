@@ -4,7 +4,7 @@ import './index.css';
 class LeftNav extends Component {
     render() {
         return (
-            <div>
+            <div className="left-nav-container">
                 Placeholder for LeftNav...
             </div>
         )
