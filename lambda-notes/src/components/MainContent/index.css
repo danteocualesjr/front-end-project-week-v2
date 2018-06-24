@@ -1,5 +1,6 @@
 .main-content-container {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
     width: 220px;
     min-width: 660px;
