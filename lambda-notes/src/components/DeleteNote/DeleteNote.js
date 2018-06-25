@@ -3,9 +3,26 @@ import './index.css';
 
 class DeleteNote extends Component {
     render() {
+        let toggle = this.props.toggle;
         return (
-            <div>
-                Placeholder for DeleteNote...
+            <div className={ toggle ? "delete-note-container" : "hidden" }>
+                <div>
+                    <h4>Are you sure you want to delete this?</h4>
+                </div>
+                <div className="delete-buttons-wrapper">
+                    <div 
+                        className="button button--danger"
+                        onClick={this.props.showModal}
+                    >
+                        DELETE
+                    </div>
+                    <div 
+                        className="button"
+                        onClick={this.props.showModal}
+                    >
+                        NO
+                    </div>
+                </div>
             </div>
         );
     }

@@ -39,3 +39,7 @@ body {
   height: 40px;
   border-radius: 0.1rem;
 }
+
+.button--danger {
+  background-color: red;
+}
