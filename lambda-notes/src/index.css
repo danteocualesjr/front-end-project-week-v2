@@ -26,6 +26,16 @@ body {
   text-decoration: none;
 }
 
+.unstyled-link {
+  text-decoration: none;
+  color: rgb(66,66,66);
+}
+
+.unstyled-link :visited {
+  text-decoration: none;
+  color: rgb(66,66,66);
+}
+
 .button {
   width: 200px;
   display: flex;

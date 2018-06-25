@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 import DeleteNote from '../DeleteNote/DeleteNote';
 
@@ -7,6 +8,7 @@ class NoteView extends Component {
         super()
         this.state = {
             displayDelete: false,
+            matched: [],
             notesArray: [
                 {
                     _id: 'bsdbsjbfvjnvjvwdvnsdva',
@@ -48,20 +50,29 @@ class NoteView extends Component {
         }
     }
 
+    componentWillMount() {
+        let routeId = this.props.match.params.id;
+        console.log('Route ID is: ', routeId);
+        let matched = this.state.notesArray.filter((item) =>item._id === routeId);
+        console.log('Matched object', matched)
+        this.setState({ matched })
+    }
+
     showModal = () => {
         // This is toggle logic.
         this.setState({ displayDelete: !this.state.displayDelete }) 
     }
 
     render() {
+        console.log('NoteView Props', this.props)
         return (
             <div className="note-view-container">
                 <div className="note-view-top-content">
                     <h3 className="content-header">
-                        {this.state.notesArray[0].title}
+                        {this.state.matched[0].title}
                     </h3>
                     <div>
-                        <a href="#" className="edit-delete">edit</a>
+                        <Link to={"/edit/${this.props.match.params.id}"} className="edit-delete">edit</Link>
                         <a 
                             href="#"
                             className="edit-delete"
@@ -72,14 +83,14 @@ class NoteView extends Component {
                     </div>
                 </div>
                 <div className="notes-list">
-                    <p classname="">
-                        {this.state.notesArray[0].body}
+                    <p className="">
+                        {this.state.matched[0].body}
                     </p>
+                </div>
                     <DeleteNote 
                         toggle={this.state.displayDelete}
                         showModal={this.showModal}
                     />
-                </div>
             </div>
         );
     }

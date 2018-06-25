@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+import { Link } from 'react-router-dom';
 
 class LeftNav extends Component {
     render() {
@@ -9,12 +10,12 @@ class LeftNav extends Component {
                     <h1 className="left-nav-header">Lambda Notes</h1>
                 </div>
                 <div className="left-nav-buttons-container">
-                    <a href="#" className="button-link">
+                    <Link to="/" className="button-link">
                         <div className="left-nav-button">View Your Notes</div>
-                    </a>
-                    <a href="#" className="button-link">
+                    </Link>
+                    <Link to="/create" className="button-link">
                         <div className="left-nav-button">+ Create New Note</div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         )

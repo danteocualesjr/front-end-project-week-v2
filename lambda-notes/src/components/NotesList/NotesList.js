@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 class NotesList extends Component {
@@ -48,13 +49,15 @@ class NotesList extends Component {
 
     generateNotes = (what, where) => {
         return (
-            <div className="note" key={where + what.title}>
-                <div>
-                    <h4>{what.title}</h4>
-                    <hr></hr>
-                    <p>{what.body}</p>
+            <Link to={"/note/${what._id}"} className="unstyled-link" key={what._id}>
+                <div className="note">
+                    <div>
+                        <h4>{what.title}</h4>
+                        <hr></hr>
+                        <p>{what.body}</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         )
     }
 
