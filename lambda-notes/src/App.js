@@ -14,3 +14,5 @@ class App extends Component {
 }
 
 export default App;
+
+// Preparing front-end project for back-end project
