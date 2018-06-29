@@ -13,19 +13,13 @@ class NotesList extends Component {
     constructor() {
         super()
         this.state = {
-            notes: ""
+
         }
     }
 
     componentWillMount() {
-        // let reversed = Array.from(this.props.notesArray).reverse();
-        // this.setState({ notesArray: reversed });
-        axios.get('https://lambdanotessvr.herokuapp.com/api/notes')
-            .then(response => {
-                this.setState({
-                    notes: response.data.notes
-                })
-            })
+        let reversed = Array.from(this.props.notesArray).reverse();
+        this.setState({ notesArray: reversed }); 
     }
 
     generateNotes = (what, where) => {
