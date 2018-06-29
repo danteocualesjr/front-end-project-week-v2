@@ -6,8 +6,8 @@
 #    that is where we will look for package.json/.nvmrc/etc not repo root!
 
 [build]
-    base = "./front-end-project-week-v2/lambda-notes"
-    publish = "./front-end-project-week-v2/lambda-notes/build"
+    base = "./front-end-project-week-v2/"
+    publish = "./front-end-project-week-v2/build"
     comamnd = "yarn build"
 
 # Production context: All deploys to the main
