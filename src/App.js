@@ -15,4 +15,4 @@ class App extends Component {
 
 export default App;
 
-// Just some pseudo code...\
+// Just some pseudo code...
