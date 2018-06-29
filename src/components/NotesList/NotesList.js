@@ -13,7 +13,7 @@ class NotesList extends Component {
     constructor() {
         super()
         this.state = {
-
+            notes: ""
         }
     }
 
