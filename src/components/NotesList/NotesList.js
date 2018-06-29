@@ -20,7 +20,7 @@ class NotesList extends Component {
     componentWillMount() {
         // let reversed = Array.from(this.props.notesArray).reverse();
         // this.setState({ notesArray: reversed });
-        axios.get('https://lambdanotessvr.herokuapp.com/api/notes', { withCredentials: true })
+        axios.get('https://lambdanotessvr.herokuapp.com/api/notes')
             .then(response => {
                 this.setState({
                     notes: response.data.notes
