@@ -1,4 +1,4 @@
 [build]
-    base = "./lambda-notes/"
-    publish = "./lambda-notes/build"
+    base = "./front-end-project-week-v2/"
+    publish = "./front-end-project-week-v2/build"
     comamnd = "yarn build"
