@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { createNote } from '../../actions';
 import './index.css';
+import axios from 'axios';
 
 class CreateNote extends Component {
     constructor() {
@@ -21,6 +22,16 @@ class CreateNote extends Component {
         console.log('My Crafted Note is: ', craftedNote);
         this.props.createNote(craftedNote);
         this.props.history.push('/');
+
+        axios
+            .post('https://lambdanotessvr.herokuapp.com/api/createnote', this.state)
+            .then(response => {
+                // localStorage.setItem('jwt', response.data.token);
+
+                console.log('Signing props', this.props);
+                this.props.history.push('/notes')
+            })
+            .catch(err => console.log('Baaaaad to the bone!'));
     }
 
     handleChange = (e) => {
