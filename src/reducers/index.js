@@ -4,7 +4,9 @@ const initialState = [
     {
         _id: 'bsdbsjbfvjnvjvwdvnsdva',
         title: 'Letter to Cassandra, Steventon: Saturday (January 9, 1796).',
-        body: `In the first place I hope you will live twenty-three years longer. Mr. Tom Lefroy's birthday was yesterday, so that you are very near of an age. After this necessary preamble I shall proceed to inform you that we had an exceeding good ball last night, and that I was very much disappointed at not seeing Charles Fowle of the party, as I had previously heard of his being invited. In addition to our set at the Harwoods' ball, we had the Grants, St. Johns, Lady Rivers, her three daughters and a son, Mr. and Miss Heathcote, Mrs. Lefevre, two Mr. Watkins, Mr. J. Portal, Miss Deanes, two Miss Ledgers, and a tall clergyman who came with them, whose name Mary would never have guessed.`,
+        body: `In the first place I hope you will live twenty-three years longer. Mr. Tom Lefroy's birthday was yesterday, so that you are very near of an age. 
+        
+        After this necessary preamble I shall proceed to inform you that we had an exceeding good ball last night, and that I was very much disappointed at not seeing Charles Fowle of the party, as I had previously heard of his being invited. In addition to our set at the Harwoods' ball, we had the Grants, St. Johns, Lady Rivers, her three daughters and a son, Mr. and Miss Heathcote, Mrs. Lefevre, two Mr. Watkins, Mr. J. Portal, Miss Deanes, two Miss Ledgers, and a tall clergyman who came with them, whose name Mary would never have guessed.`,
         createdAt: 1529884185034,
     },
     {
