@@ -40,6 +40,7 @@ class NotesList extends Component {
         console.log('Props inside NotesList:', this.props);
         return (
             <div className="notes-list-container">
+                <div><h3 className="content-header">Good day, Miss Austen!</h3></div>
                 <div><h3 className="content-header">Your Notes:</h3></div>
                 <div className="notes-list">
                     {this.state.notesArray.map(this.generateNotes)}
