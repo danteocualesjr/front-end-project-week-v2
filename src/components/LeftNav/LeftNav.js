@@ -14,7 +14,7 @@ class LeftNav extends Component {
                         <div className="left-nav-button">View Your Notes</div>
                     </Link>
                     <Link to="/create" className="button-link">
-                        <div className="left-nav-button">+ Create New Note</div>
+                        <div className="left-nav-button">+ Write New Note</div>
                     </Link>
                 </div>
             </div>
