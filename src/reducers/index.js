@@ -16,7 +16,7 @@ const initialState = [
     {
         _id: '3223vghegetgndfvsrwdvnsdva',
         title: 'Letter to Cassandra, Cork Street: Tuesday morn (August, 1796)',
-        body: `MY DEAR CASSANDRA,
+        body: `My Dear Cassandra,
 
         Here I am once more in this scene of dissipation and vice, and I begin already to find my morals corrupted. We reached Staines yesterday, I do not (know) when, without suffering so much from the heat as I had hoped to do. We set off again this morning at seven o'clock, and had a very pleasant drive, as the morning was cloudy and perfectly cool. I came all the way in the chaise from Hertford Bridge.`,
         createdAt: 1529884185201,
@@ -24,7 +24,7 @@ const initialState = [
     {
         _id: '3223vghegetbefv21234rwdvnsdva',
         title: 'Letter to Cassandra, Rowling: Thursday (September 1, 1796)',
-        body: `MY DEAREST CASSANDRA,
+        body: `My Dearest Cassandra,
 
         The letter which I have this moment received from you has diverted me beyond moderation. I could die of laughter at it, as they used to say at school. You are indeed the finest comic writer of the present age.
         
@@ -34,7 +34,7 @@ const initialState = [
     {
         _id: 'w3d3f3refwdvrv21234rwdvnsdva',
         title: 'Letter to Cassandra, Rowling: Monday (September 5, 1796)',
-        body: `MY DEAR CASSANDRA,
+        body: `My Dear Cassandra,
 
         I shall be extremely anxious to hear the event of your ball, and shall hope to receive so long and minute an account of every particular that I shall be tired of reading it. Let me know how many, besides their fourteen selves and Mr. and Mrs. Wright, Michael will contrive to place about their coach, and how many of the gentlemen, musicians, and waiters, he will have persuaded to come in their shooting-jackets. I hope John Lovett's accident will not prevent his attending the ball, as you will otherwise be obliged to dance with Mr. Tincton the whole evening. Let me know how J. Harwood deports himself without the Miss Biggs, and which of the Marys will carry the day with my brother James.`,
         createdAt: 1529884185301,
@@ -42,7 +42,7 @@ const initialState = [
     {
         _id: 'wdfrefwdvrv21234rwdvnsdva',
         title: 'Letter to Cassandra, Rowling: Thursday (September 15, 1796)',
-        body: `MY DEAR CASSANDRA,
+        body: `My Dear Cassandra,
 
         We have been very gay since I wrote last; dining at Nackington, returning by moonlight, and everything quite in style, not to mention Mr. Claringbould's funeral which we saw go by on Sunday.
         
